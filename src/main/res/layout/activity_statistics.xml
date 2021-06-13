@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.teo.anagramgame.StatisticsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:id="@+id/right_ans" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/wrong_ans" />
+    <TextView
+        android:id="@+id/Stats"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/Form"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="216dp"
+        android:text="FORM"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@android:color/holo_red_light"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft ="216dp"
+        android:text="RESET"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@android:color/holo_red_light"
+        android:textStyle="bold"/>
+</RelativeLayout>

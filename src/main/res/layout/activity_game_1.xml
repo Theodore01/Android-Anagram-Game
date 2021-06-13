@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="45dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/find_word"
+        android:inputType="textCapCharacters"
+        android:layout_width="250dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        />
+    <Button
+        android:id="@+id/validate"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_width="250dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Validate"/>
+    <Button
+        android:id="@+id/Form"
+        android:textSize="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:background="@android:color/holo_red_light"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:text="STATISTICS"/>
+</RelativeLayout>

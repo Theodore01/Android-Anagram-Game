@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teo.anagramgame.About_activity"
+    android:background="@android:color/holo_orange_light">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="About"
+        android:textAlignment="center"
+        android:textSize="75dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="This is an educational game with scaling difficulty.
+It's meant for kids trying to learn english in a fun and exciting way."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="How to Play: Press New Game try to guess the word and press Validate if you think you got it right.
+In statistics you can see how many answers you got right and wrong."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Made by Teo Pournaras in the context of Αλληλεπίδραση ΗΥ/Ανθρώπου"
+        />
+</RelativeLayout>
